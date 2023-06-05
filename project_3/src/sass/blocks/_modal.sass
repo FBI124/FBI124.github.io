@@ -1,0 +1,52 @@
+.overlay
+    display: none
+    position: fixed
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, .60 )
+    top: 0
+
+.modal
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 382px
+    min-height: 422px
+    background: #F2F2F2
+    padding: 25px 32px 40px 42px
+    border-radius: 5px
+    border: 1px solid #000
+    &__close
+        position: absolute
+        top: 0
+        right: -50px
+        color: red
+        font-size: 60px
+        line-height: 26px
+        cursor: pointer
+    &__subtitle
+        font-style: normal
+        font-weight: 700
+        font-size: 18px
+        text-align: center
+        color: #0D0D0D
+    &__descr
+        margin-top: 10px
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        text-align: center
+        color: #0D0D0D
+    &_mini
+        min-height: 143px
+    .error
+        border: 2px solid red
+    label.error 
+        border: none
+        text-align: center
+        margin-bottom: 13px
+
+#consultation, #order, #application
+    display: none
+    

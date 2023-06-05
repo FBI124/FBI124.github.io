@@ -1,0 +1,42 @@
+html::-webkit-scrollbar 
+	width: 9px
+
+html::-webkit-scrollbar-track 
+	background: rgb(73, 69, 69)
+	border-radius: 10px
+
+html::-webkit-scrollbar-thumb 
+	background: rgb(255, 97, 97)
+	border-radius: 10px
+
+html::-webkit-scrollbar-thumb:hover 
+	background: rgb(255, 255, 255)
+	border-radius: 10px
+
+html::-webkit-scrollbar-thumb:active 
+	background: rgb(192, 185, 185)
+	border-radius: 10px
+
+@import 'base/animations'
+@import 'base/variables'
+
+*
+	font-family: 'Museo Sans Cyrl', sans-serif
+	
+.container 
+	max-width: 950px
+	margin: 0 auto
+	
+@import 'blocks/promo'
+@import 'blocks/header.sass'
+@import 'blocks/buttons'
+@import 'blocks/advantages'
+@import 'blocks/consultation'
+@import 'blocks/forms'
+@import 'blocks/carousel'
+@import 'blocks/catalog.sass'
+@import 'blocks/reviews.sass'
+@import 'blocks/footer.sass'
+@import 'blocks/modal.sass'
+@import 'blocks/pageup'
+@import 'base/media'
