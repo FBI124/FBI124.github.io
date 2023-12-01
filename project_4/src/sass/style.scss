@@ -1,0 +1,51 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue $main-color;
+  }
+  
+*::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    background: $main-color;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid $main-color;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/sidepanel';
+@import 'blocks/menu';
+@import 'blocks/information';
+@import 'blocks/utility';
+@import 'blocks/pageup';
+@import 'blocks/work';
+@import 'blocks/portfolio';
+@import 'blocks/contact';
+@import 'blocks/roma';
+@import 'base/media';
