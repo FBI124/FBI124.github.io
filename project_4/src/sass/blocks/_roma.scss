@@ -1,0 +1,32 @@
+.roma {
+    margin-top: 120px;
+	min-height: 200px;
+	background-color: white;
+    padding-top: 60px;
+	display: flex; 
+    flex-direction: column;
+	justify-content: center; 
+	align-items: center; 
+	min-height: 50vx;
+	background: $main-color; 
+    background: url("../img/background.jpg") no-repeat 50%/cover;
+    object-fit: cover;
+    &_design {
+        position: relative; 
+        font-size: 6em; 
+        letter-spacing: 10px; 
+        color: #000; 
+        text-transform: uppercase; 
+        text-align: center;
+        line-height: 0.70em; 
+    }
+    &__reserved {
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
